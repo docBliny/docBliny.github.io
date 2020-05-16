@@ -1,7 +1,7 @@
 # Roon playback control for Elgato Stream Deck
 This is a plug-in that allows controlling music playback of Roon outputs with the Elgato Stream Deck.
 
-Don't have Roon? Use my referral link: https://roonlabs.com/r/flf4BxfNwEagR1t5ZBqYUA
+Don't have Roon? Use my referral link: [Purchase Roon](https://roonlabs.com/r/flf4BxfNwEagR1t5ZBqYUA)
 
 ## Features
 The plug-in supports most basic playback actions. Note that some actions are available in two flavors. For example, there is a Play/Pause action in addition to separate Play and Pause actions. "Why?" you might ask. Well, if you're streaming there are many cases where you want to make sure you only pause or only play music. A great use case is in multi-actions where you want to "script" multiple things to happen. The Play/Pause action might actually stop playback (if already playing) instead of starting it.
