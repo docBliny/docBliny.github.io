@@ -6,6 +6,8 @@ Don't have Roon? Use my referral link: [Purchase Roon](https://roonlabs.com/r/fl
 ## Features
 The plug-in supports most basic playback actions. Note that some actions are available in two flavors. For example, there is a Play/Pause action in addition to separate Play and Pause actions. "Why?" you might ask. Well, if you're streaming there are many cases where you want to make sure you only pause or only play music. A great use case is in multi-actions where you want to "script" multiple things to happen. The Play/Pause action might actually stop playback (if already playing) instead of starting it.
 
+![Screen shot](images/screenshot.png)
+
 - Play/Pause
   - Cover art (optional)
   - Elapsed playback time (optional)
