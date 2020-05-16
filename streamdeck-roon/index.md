@@ -1,6 +1,8 @@
 # Roon playback control for Elgato Stream Deck
 This is a plug-in that allows controlling music playback of Roon outputs with the Elgato Stream Deck.
 
+Don't have Roon? Use my referral link: https://roonlabs.com/r/flf4BxfNwEagR1t5ZBqYUA
+
 ## Features
 The plug-in supports most basic playback actions. Note that some actions are available in two flavors. For example, there is a Play/Pause action in addition to separate Play and Pause actions. "Why?" you might ask. Well, if you're streaming there are many cases where you want to make sure you only pause or only play music. A great use case is in multi-actions where you want to "script" multiple things to happen. The Play/Pause action might actually stop playback (if already playing) instead of starting it.
 
@@ -35,7 +37,7 @@ Install the plug-in from the Stream Deck store. Just click on **More Actions..**
 
 ### Step 2: Roon Core configuration
 - Once the plug-in is installed, scroll down in the list until you find the `Roon` category.
-- Add one of the Roon actions, such as Play/Pause, to the Deck.
+- Add one of the Roon actions, such as _Play/Pause_, to the Deck.
 - You'll see the Roon core section in the button configuration. This is only expanded when you haven't configured the address of your Roon Core, but you can alway get back to it by clicking on the expansion triangle.
 - Enter the hostname (or IP address) and port of your Roon Core (the port is likely to be 9100), and then click **Connect**.
 
@@ -57,6 +59,8 @@ At this point, assuming the address is correct and your computer is able to reac
 
 ## Configure buttons
 Once you've got the Roon Core configured and the extension enabled in Roon, you can start adding buttons and customizing them. You'll need to specify which Roon output each button should target. You can either type in the name of the zone/output, or you can select an active output from the _Available outputs_ dropdown. Only outputs active and connected to Roon will show up, but you can type in the name of inactive outputs at any time.
+
+> Important: The name must match exactly what you've got in Roon.
 
 ![Output selection](images/output-selection.png)
 
