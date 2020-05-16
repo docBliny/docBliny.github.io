@@ -26,6 +26,10 @@ The plug-in supports most basic playback actions. Note that some actions are ava
 - Mute/Unmute
 - Roon radio on/off
 
+You can hold the volume up/down buttons instead of pressing them down multiple times, and you can hold down the previous/next buttons to seek within a track.
+
+To play specific playlists, artists, radio station, etc. you'll need to match the name exactly with what's in Roon. You'll get a warning image if no match is found.
+
 ## Installation
 There are three basic steps required to get started with the plug-in:
 1. Install the Stream Deck plug-in.
@@ -72,6 +76,16 @@ Once you've got the Roon Core configured and the extension enabled in Roon, you 
 All actions have the option to _Dim when action not available_. This will cause the default button images to be dimmed slightly if that action is not available or Roon cannot be reached. Note, however, that this feature will not work if you customize the images for the button.
 
 When you add a new button, it will be prepopulated with the previously selected output name. However, each button can target a different output. This means you can have one button control the music in the living room and another adjusting the kitchen.
+
+## Troubleshooting
+- *Nothing happens when I click _Connect_*: Verify that you've got the correct Roon address or IP and that your computer can reach the Roon Core. You can try the following command to check connectivity: `curl -I \[my-roon-address]:9100/`. You should see output similar to the following:
+```
+HTTP/1.1 404 Not Found
+Content-Length: 0
+```
+- *Yeah, I get response that but it still doesn't work*: Make sure you've enabled the extension in Roon. You'll need to re-enable after uninstalling/reinstalling for example.
+- *All the buttons are dimmed out*: Make sure you're still connected to Roon. Sometimes the auto-connect fails after network changes and such. Just hit **Connect...** in the button config
+- *I get a warning image when I press a button*: This can happen if you try to start an invalid playlist, album, artist etc. or when there is no related content for the "Play related item" action. It will also happen if there's an error.
 
 ## Limitations
 Only a single Roon Core can be used.
