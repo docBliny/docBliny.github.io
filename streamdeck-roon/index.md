@@ -87,6 +87,9 @@ Content-Length: 0
 - *All the buttons are dimmed out*: Make sure you're still connected to Roon. Sometimes the auto-connect fails after network changes and such. Just hit **Connect...** in the button config
 - *I get a warning image when I press a button*: This can happen if you try to start an invalid playlist, album, artist etc. or when there is no related content for the "Play related item" action. It will also happen if there's an error.
 
+## Compatibility
+Windows 10 and macOS 10.11+.
+
 ## Limitations
 Only a single Roon Core can be used.
 
