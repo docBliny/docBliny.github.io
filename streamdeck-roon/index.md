@@ -4,7 +4,7 @@ This is a plug-in that allows controlling music playback of Roon outputs with th
 Don't have Roon? Use my referral link: [Purchase Roon](https://roonlabs.com/r/flf4BxfNwEagR1t5ZBqYUA)
 
 ## Features
-The plug-in supports most basic playback actions. Note that some actions are available in two flavors. For example, there is a Play/Pause action in addition to separate Play and Pause actions. "Why?" you might ask. Well, if you're streaming there are many cases where you want to make sure you only pause or only play music. A great use case is in multi-actions where you want to "script" multiple things to happen. The Play/Pause action might actually stop playback (if already playing) instead of starting it.
+The plug-in supports most basic playback actions. Note that some actions are available in two flavors. For example, there is a Play/Pause action in addition to separate Play and Pause actions. "Why?" you might ask. Well, if you're streaming you want to be sure you're hitting the right button to actually start or stop playback. They're also easier to use in multi-actions.
 
 ![Screen shot](images/screenshot.png)
 
@@ -92,6 +92,15 @@ Windows 10 and macOS 10.11+.
 
 ## Limitations
 Only a single Roon Core can be used.
+
+## Release notes
+
+### [1.0.5] - 2020-06-27
+* Fixed an issue causing the cover art to not always be rendered
+* Fixed an issue causing the Play button to not update correctly
+* Fixed issue where previous cover art was not removed if the next track didn't have cover art available
+* Fixed an issue when adding buttons and the default zone wasn't set
+* Added ability to reconnect to Roon Core by pressing any key when disconnected
 
 ## Misc
 Roon is (probably) a trademark or registered trademark of Roon Labs LLC.
