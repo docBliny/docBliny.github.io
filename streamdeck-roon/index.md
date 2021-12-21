@@ -1,7 +1,11 @@
 # Roon playback control for Elgato Stream Deck
 This is a plug-in that allows controlling music playback of Roon outputs with the Elgato Stream Deck.
 
+Unfortunately, I don't have time to support this project. Let me know if you're interested in taking ownership.
+
 Don't have Roon? Use my referral link: [Purchase Roon](https://roonlabs.com/r/flf4BxfNwEagR1t5ZBqYUA)
+
+**NOTE!** Roon version 1.8 (Build 882) made the Roon port more random than it used to be. You'll likely have to do a bit of hunting to find the right one
 
 ## Features
 The plug-in supports most basic playback actions. Note that some actions are available in two flavors. For example, there is a Play/Pause action in addition to separate Play and Pause actions. "Why?" you might ask. Well, if you're streaming you want to be sure you're hitting the right button to actually start or stop playback. They're also easier to use in multi-actions.
@@ -45,7 +49,8 @@ Install the plug-in from the Stream Deck store. Just click on **More Actions..**
 - Once the plug-in is installed, scroll down in the list until you find the `Roon` category.
 - Add one of the Roon actions, such as _Play/Pause_, to the Deck.
 - You'll see the Roon core section in the button configuration. This is only expanded when you haven't configured the address of your Roon Core, but you can alway get back to it by clicking on the expansion triangle.
-- Enter the hostname (or IP address) and port of your Roon Core (the port is likely to be 9100), and then click **Connect**.
+- Enter the hostname (or IP address) and port of your Roon Core. NOTE! The port number is random. You can check Roon Settings / Displays / Web display URL for the likely port number.
+- Click **Connect**.
 
 At this point, assuming the address is correct and your computer is able to reach the Roon Core, you'll need to enable the extension in Roon.
 
@@ -78,7 +83,7 @@ All actions have the option to _Dim when action not available_. This will cause 
 When you add a new button, it will be prepopulated with the previously selected output name. However, each button can target a different output. This means you can have one button control the music in the living room and another adjusting the kitchen.
 
 ## Troubleshooting
-- *Nothing happens when I click _Connect_*: Verify that you've got the correct Roon address or IP and that your computer can reach the Roon Core. You can try the following command to check connectivity: `curl -I \[my-roon-address]:9100/`. You should see output similar to the following:
+- *Nothing happens when I click _Connect_*: Verify that you've got the correct Roon address or IP and port, and that your computer can reach the Roon Core. You can try the following command to check connectivity: `curl -I \[my-roon-address]:9100/`. The port is random, so you may have to update it after a reboot or upgrade. You should see output similar to the following:
 ```
 HTTP/1.1 404 Not Found
 Content-Length: 0
