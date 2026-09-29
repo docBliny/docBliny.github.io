@@ -1,6 +1,6 @@
 # DEPRECATED: Roon playback control for Elgato Stream Deck
 
-Please check out the replacement plug-in named *Roon: Dialed Up* at https://marketplace.elgato.com/product/roon-dialed-up-f76699d9-4266-4d4a-ad94-eaddd148daa9
+Please check out the replacement plug-in [Roon: Dialed Up on the Elgato Marketplace](https://marketplace.elgato.com/product/roon-dialed-up-f76699d9-4266-4d4a-ad94-eaddd148daa9).
 
 
 
