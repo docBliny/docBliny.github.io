@@ -1,7 +1,11 @@
-# Roon playback control for Elgato Stream Deck
-This is a plug-in that allows controlling music playback of Roon outputs with the Elgato Stream Deck.
+# DEPRECATED: Roon playback control for Elgato Stream Deck
 
-Unfortunately, I don't have time to support this project. Let me know if you're interested in taking ownership.
+Please check out the replacement plug-in named *Roon: Dialed Up* at https://marketplace.elgato.com/product/roon-dialed-up-f76699d9-4266-4d4a-ad94-eaddd148daa9
+
+
+
+# Old instructions
+This is a plug-in that allows controlling music playback of Roon outputs with the Elgato Stream Deck.
 
 Don't have Roon? Use my referral link: [Purchase Roon](https://roonlabs.com/r/flf4BxfNwEagR1t5ZBqYUA)
 
